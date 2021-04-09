@@ -1,0 +1,37 @@
+.text{
+    align-items: center;
+    position: relative;
+    align-content: center;
+    margin-left: 32%;
+    font-size: 155%;
+    
+}
+.number{
+    position: relative;
+    margin-left: 42%;
+    margin-top: -4%;
+    /* size: 19px; */
+    font-size: 125px;
+}
+.boxes{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    /* width: 99%; */
+    font-size: 28px;
+    position: relative;
+    margin-top: 6%; 
+    
+}
+.eventkey{
+    background-color: rgb(85, 85, 155);
+}
+.locationevent{
+    background-color: rgb(85, 85, 155);
+}
+.eventwhich{   background-color: rgb(85, 85, 155); }
+    
+.eventcode{
+    background-color: rgb(85, 85, 155);
+}

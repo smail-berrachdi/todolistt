@@ -1,0 +1,16 @@
+ages h1{font-size:30px;font-family:"DM Serif Display", sans-serif;margin-bottom:20px;margin-top:-40px}#about
+.languages .icons{display:flex}#about 
+.languages .icons div{margin:10px 20px}#about 
+.languages .icons div i{font-size:45px;color:rgb(0, 0, 0)}@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;600&display=swap");*,
+::before,::after{margin:0;padding:0;box-sizing:border-box}body{background-color:rgb(105, 105, 105)}
+.container{background-color:rgb(156, 156, 156)}
+.navbar{background-color:rgb(160, 160, 160);max-width:1100px;margin:0 auto;height:80px;display:flex;align-items:center;justify-content:space-between}
+.navbar .logo{font-family:"DM Serif Display", sans-serif;font-size:30px;color:#333}.navbar .nav-links{display:flex;align-items:center;list-style:none}
+.navbar .nav-links .link{padding:0 20px}
+.navbar .nav-links .link a{font-family:"Poppins", sans-serif;font-size:18px;text-decoration:none;color:#333;text-transform:uppercase}
+.navbar .nav-links .link a:hover{font-weight:600;border-bottom:2px solid #333}#about{height:80vh;max-width:1100px;margin:0 auto;padding:50px 0}#about 
+.showcase{height:60vh;margin:auto;display:flex;flex-direction:column;align-items:center;justify-content:center}#about 
+.showcase h1{font-family:"DM Serif Display", sans-serif;font-size:50px;margin-bottom:20px;margin-top:-50px}#about 
+.showcase p{font-family:"Poppins", sans-serif;font-size:22px}#about
+.languages{display:flex;flex-direction:column;align-items:center;justify-content:center}#about
+ 

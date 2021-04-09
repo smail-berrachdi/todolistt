@@ -1,0 +1,37 @@
+.container{
+    background-color: rgb(46, 137, 255);
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 90px;
+    padding-top: 1%;
+
+}
+.title{
+    position: relative;
+    align-items: center;
+    margin-left: 33%;
+    font-size: 43px;
+    margin-top: 98px;
+}
+.under{
+    position: relative;
+    margin-left: 512px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+
+}
+.add input{
+    position: relative;
+    margin-left: 300px;
+    width: 537px;
+}
+
+.click{
+position: relative;
+margin-left: 490px; ;
+}
+.clik{position: relative;
+    margin-left: 490px;
+
+}

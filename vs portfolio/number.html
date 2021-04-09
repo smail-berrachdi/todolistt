@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./number.css" />
+  </head>
+  <body>
+      <div class="generator">
+    <div class="text"><h1>keycode Generator</h1></div>
+    <div class="number"><h2></h2></div>
+    <div class="boxes">
+      <h2 class="eventkey">event.key</h2>
+      <h2 class="locationevent">location.event</h2>
+      <h2 class="eventwhich">event.which</h2>
+      <div>
+      <h2 class="eventcode">event.code</h2>
+    </div>
+    </div>
+    <script>
+        let key = document.getElementsByClassName("eventkey");
+        let number=document.querySelector(".number");
+
+        document.body.addEventListener("keydown",keycode)
+        function keycode(event){
+            var key = event.key;;
+            var location= event.location;
+            var which= event.which;
+            var code= event.code
+            number.textContent= which
+            document.getElementsByClassName("eventkey").innerhtml= 
+            document.getElementsByClassName("eventlocation").innerhtml= 
+            document.getElementsByClassName("eventwhich").innerhtml=
+            document.getElementsByClassName("eventcode").innerhtml=
+            generator.classlist.remove("show")
+        }
+    </script>
+  </body>
+</html>
